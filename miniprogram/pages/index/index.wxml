@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <canvas style='width: 300px; height: 300px' canvas-id='compass'></canvas>
+  <view class='usermotto'>
+    <text class='location_text'>{{angle}}</text>
+    <text class='location_text'>当前位置: {{nowLatitude}},{{nowLongitude}}</text>
+    <text class='location_text'>当前海拔: {{nowAltitude}}</text>
+    <text class='location_text'>当前速度: {{nowSpeed}}</text>
+  </view>
+</view>
